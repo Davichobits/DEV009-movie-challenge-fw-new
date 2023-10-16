@@ -13,7 +13,6 @@ const genreSlice = createSlice({
   initialState,
   reducers:{
     updateGenre: (state, action: PayloadAction<string> ) => {
-      console.log(action.payload)
       state.genre = action.payload
     },
   },
